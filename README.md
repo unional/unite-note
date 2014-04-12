@@ -1,4 +1,4 @@
-# unite-note
+# Unite Note
 
 Unite Note is an information application that allows you to create, read, reference and search freely organizable, inter-related knowledge at amazing speed.
 
