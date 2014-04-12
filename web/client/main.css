@@ -1,0 +1,13 @@
+.caret.caret-reversed {
+    border-top-width: 0;
+    border-bottom: 4px solid;
+}
+
+.dynamicPanel {
+    position: absolute;
+}
+
+.dropup {
+    bottom: 100% !important;
+    top: auto !important;
+}

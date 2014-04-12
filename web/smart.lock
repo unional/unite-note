@@ -1,0 +1,26 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "iron-router": {},
+      "glyphicons-halflings": {}
+    },
+    "packages": {
+      "iron-router": {
+        "git": "https://github.com/EventedMind/iron-router.git",
+        "tag": "v0.7.0",
+        "commit": "05f34bc48c4cad9fdaa366c1ddcabe6980232ece"
+      },
+      "glyphicons-halflings": {
+        "git": "https://github.com/chriswessels/meteor-glyphicons-halflings.git",
+        "tag": "v1.0.2",
+        "commit": "c943b42cddb92be8218322e7d638a98ef5d10366"
+      },
+      "blaze-layout": {
+        "git": "https://github.com/EventedMind/blaze-layout.git",
+        "tag": "v0.2.2",
+        "commit": "8bc53798fe5965669ae67c72f91829fcfdceabfd"
+      }
+    }
+  }
+}

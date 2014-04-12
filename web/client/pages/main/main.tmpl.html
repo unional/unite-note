@@ -1,0 +1,11 @@
+<template name="main">
+	{{> searchPanel}}
+    {{> developerPanel}}
+	<div id="canvas">
+        {{#each anchoredNodes}}
+            {{#if mode "edit"}}
+                {{> editPanel}}
+            {{/if}}
+        {{/each}}
+	</div>
+</template>
