@@ -1,0 +1,47 @@
+[Unite Note]
+:[Syntax]
+
+Reference
+	# Candidates
+	Markdown link syntax: `[Entity]`
+	Twitter, Asana, Razor syntax: `@Entity`
+	Handlebar, meteor syntax: `{{Entity}}`
+
+Link
+	# Definition
+	A link is either a reference to a node, or an external link. When a node is parsed and inserted to database, any reference of that node will be a link.
+
+	# Format
+	`[name](reference)`
+
+	`reference` = entityId or url.
+
+	# Example
+
+		[nodeA](12341234asdf870)
+		[nodeB](http://www.github.com)
+
+Tag
+	[TagA].[SubTagB]
+
+Context / Namespace
+	Context or Namespace (need to decide which name to use) is used to resolve reference.
+	It is like requireJS, commonJS, or using Namespace declaration in C#.
+
+	[ContextA].[ContextB] means use contextB which is a direct child of contextA.
+	[ContextA]...[ContextZ] means use the contextZ inside contextA.
+	// What if the node in between is not a context?
+	
+	[ContextA]
+	Name of the node.
+
+Alias
+	Alias is created and used to resolve relation between nodes automatically.
+
+	# Example
+	[Birthday] is an alias of [Birth] and [Date].
+	So if you have a birth event and tag it with a date node,
+	that is sufficient to conclude that date is a birthday.
+
+	In the same sense,
+	[Birth Place] is an alias of [Birth] and [Location].

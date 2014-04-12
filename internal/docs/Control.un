@@ -1,0 +1,40 @@
+[Unite Note]
+:[Control Mechanism]
+
+	:[Web UI]
+
+	Global Control Mechanism
+		tab+C: Change Context
+
+	Control Mechanism for Entity node in edit view
+		Left = [other(s)]->[this] && [this] <-> [other(s)]
+		Right = [this] -> [others(s)] && [this] <-> [other(s)]
+		Up = InstanceOfs (classes)
+		Down = Tags
+
+	Control Mechanism for Entity node in browse view
+		Left = [other(s)] which has `[other]->[this]` or `[this]<->[other]` or `[other]<->[this]` relationship
+		Right = [other(s)] which has `[this]->[other]` or `[this]<->[other]` or '[other]<->[this]` relationship
+		Up = InstanceOfs (classes)
+		Down = Tags
+	------------------
+	:[Phone UI]
+
+	Global Control Mechanism
+		Search icon at top left
+		Contexts at top banner
+
+	Control Mechanism for Entity node in edit view
+		Swipe left = [other(s)]->[this] && [this] <-> [other(s)]
+		Swipe right = [this] -> [others(s)] && [this] <-> [other(s)]
+		Swipe up = InstanceOfs (classes)
+		Swipe down = Tags
+		Pinch to go to render view
+
+	Control Mechanism for Entity node in browse view
+		Swipe Left = [other(s)] which has `[other]->[this]` or `[this]<->[other]` or `[other]<->[this]` relationship
+		Swipe Right = [other(s)] which has `[this]->[other]` or `[this]<->[other]` or '[other]<->[this]` relationship
+		Swipe Up = InstanceOfs (classes)
+		Swipe Down = Tags
+		Single tap to enter render view.
+		Double tap on node to enter edit view

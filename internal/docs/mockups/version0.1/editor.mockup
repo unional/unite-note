@@ -1,0 +1,36 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="857" measuredH="490" mockupW="647" mockupH="450">
+  <controls>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="210" y="40" w="647" h="450" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0Ahttp%3A//</text>
+      </controlProperties>
+    </control>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::SearchBox" x="257" y="122" w="287" h="-1" measuredW="273" measuredH="25" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>search%20or%20create%20first%20line%20%28name%29%20of%20entity</text>
+      </controlProperties>
+    </control>
+    <control controlID="40" controlTypeID="com.balsamiq.mockups::ComboBox" x="225" y="432" w="156" h="-1" measuredW="98" measuredH="24" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <state>up</state>
+        <text>User%20Name</text>
+      </controlProperties>
+    </control>
+    <control controlID="51" controlTypeID="com.balsamiq.mockups::Canvas" x="257" y="154" w="518" h="257" measuredW="100" measuredH="70" zOrder="3" locked="false" isInGroup="-1"/>
+    <control controlID="53" controlTypeID="com.balsamiq.mockups::Icon" x="760" y="147" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>CircledXIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="54" controlTypeID="com.balsamiq.mockups::TextArea" x="266" y="163" w="504" h="233" measuredW="200" measuredH="140" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>First%20line%20is%20name%20of%20the%20entity%0A-%5Ct-%20Description%20of%20the%20entity%0A%20%0A%5B@type%5D%20-%5Ct-%20%5B@target1%5D%20-%5Ct-%20%5B@target2%5D%20-%5Ct-%20...%20%5B@targetN%5D%0A-%5Ct-%20%5BName%20%28first%20line%29%5D%20-link%20to%20entity-%0A-%5Ct-%20Description%0A%20%0A%5B@%u5E74%u8868%5D%20-%5Ct-%20%5B@%u6642%u9593%5D%0A-%5Ct-%20%5BName%20of%20the%20event%5D%0A-%5Ct-%20Description%0A%20%0A%5B@%u95DC%u4FC2%5D%20-%5Ct-%20%5B@%u4E9E%u8FEA%5D%0A-%5Ct-%20%5B%u7236%u5B50%5D%0A-%5Ct-%20Description</text>
+      </controlProperties>
+    </control>
+    <control controlID="56" controlTypeID="com.balsamiq.mockups::CallOut" x="430" y="253" w="315" h="77" measuredW="315" measuredH="39" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Note%3A%0A@entityName%20can%20have%20space.%20Ends%20until%20-%5C%5Cn-%20or%20-%5Ct-</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
